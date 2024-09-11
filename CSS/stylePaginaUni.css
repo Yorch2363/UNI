@@ -1,0 +1,59 @@
+@import url('./reajustadorMargenes.css');
+
+.maletin {
+    height: 15px; 
+    margin-right: 10px;
+}
+
+.logos-dropdown {
+    height: 15px; 
+    margin-right: 10px;
+}
+
+/* Sección Lista */
+.LISTA {
+    margin-top: 15px;
+}
+
+.LISTA li {
+    margin-bottom: 5px;
+}
+
+/* Sección Estilos de botones */
+.btn {
+    background-color: #f5f0f0;
+    border: none;
+    cursor: pointer;
+    height: 25px;
+    width: 350px;
+    text-indent: 10px;
+    text-align: left;
+    transition: all 0.3s ease-in-out;
+}
+
+.btn:hover {
+    background-color: lightblue;
+    transform: scaleY(1.2);
+}
+
+.botones {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    height: 30px;
+    width: 230px;
+    text-indent: 15px;
+    text-align: left;
+    border-radius: 13px;
+    transition: all 0.3s ease-in-out;
+}
+
+.botones:hover {
+    background-color: lightblue;
+    transform: scaleY(1.2);
+}
+
+/* Sección Menu Desplegable escondido */
+.escondido {
+    display: none;
+}
